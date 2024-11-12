@@ -736,3 +736,23 @@ button {
 .contacts-form-comment:focus {
     border-color: #4d5ae5;
 }
+.contacts-form-comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+}
+
+.contacts-form-field-wrap-checkbox {
+    margin-bottom: 24px;
+}
+
+.modal-checkbox:checked+.modal-checkbox-text span {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+    border: none;
+}
+
+.modal-checkbox-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
